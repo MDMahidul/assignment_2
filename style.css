@@ -40,13 +40,22 @@ nav>h1{
 nav > ul{
     display: flex;
     list-style: none;
-    gap: 45px;
+    gap: 40px;
 }
 nav ul li{
+    padding: 5px 10px;
     font-weight: 500;
     font-size: 18px;
     color: var(--quaternary-color);
 }
+ul li:hover{
+    transition: 0.3s;
+    color: var(--white);
+    border-radius: 8px;
+    transform: scale(1.1);
+    background: var(--btn-color);
+    cursor: pointer;
+} 
 .banner-section{
     display: flex;
     justify-content: center;
@@ -177,6 +186,7 @@ nav ul li{
 }
 .primary-btn:hover,.big-btn:hover{
     transform: scale(1.05);
+    box-shadow: 5px 5px 10px lightgrey;
 }
 /* facts section styls */
 .facts-list-section{
@@ -195,6 +205,7 @@ nav ul li{
 }
 .facts-list:hover{
     transform: scale(1.05);
+    box-shadow: 5px 5px 10px lightgrey;
 }
 .facts-number{
     font-size: 35px;
@@ -230,4 +241,31 @@ nav ul li{
     font-size: 20px;
     color: var(--quaternary-color);
     padding: 38px 0;
+  }
+  /* contact section */
+  .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--btn-color);
+    padding: 40px 100px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+  form{
+    margin-top: 25px;
+  }
+  input[type="email"],textarea{
+    height: 30px;
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 10px;
+  }
+  input[type="email"],textarea:focus{
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
   }
