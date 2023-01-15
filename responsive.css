@@ -23,8 +23,9 @@
         margin-top: 50px;
     }
     .banner-image{
-        width: 80%;
+        width: 100%;
         text-align: center;
+        margin-bottom: 20px;
     }
     .feature-section{
         flex-direction: column-reverse;
@@ -86,6 +87,11 @@
     .contact-section{
         width: 95%;
         margin: 0 auto;
+        padding: 20px;
+      }
+      input[type="email"],textarea{
+        height: 30px;
+        width: 250px;
       }
 
 }
