@@ -220,3 +220,14 @@ nav ul li{
 .sponsors-image img {
     filter: grayscale(100%);
   }
+  /* footer style */
+  .footer-section{
+    background-color: var(--tertiary-color);
+  }
+  .footer-des{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--quaternary-color);
+    padding: 38px 0;
+  }
